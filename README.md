@@ -5,12 +5,11 @@ A lightweight Bash script for streaming audio from internet radio stations. It i
 ### Dependencies:
 
 All dependencies are probably in your distro's software repositories. If not, go get them and compile what you need:
-'''
-CVLC or MPV
-Rofi or Dmenu 
-Fzf
-Yad
-'''
+
+- CVLC or MPV
+- Rofi or Dmenu 
+- Fzf
+- Yad
 
 ### What the Radiostreamer Does:
 
