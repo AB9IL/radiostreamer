@@ -42,14 +42,14 @@ echo "Opening Stream: $CHOICE"
 WINDOW=$(yad --height=30 --width=400 --no-buttons --text-align=center \
     --fixed --text="Opening Stream: $CHOICE") &
 echo "$CHOICE" > /tmp/stream
-[[ "$PLAYER" == "mpv" ]] && $PLAYER $URL -af "aformat=cl=stereo,dynaudnorm" >/dev/null 2>&1 &
+[[ "$PLAYER" == "mpv" ]] && $PLAYER $URL -af "aformat=cl=stereo,acompressor=threshold=-26dB:ratio=5:attack=5:release=300:makeup=9,dynaudnorm=p=0.9:s=10" >/dev/null 2>&1 &
 [[ "$PLAYER" == "cvlc" ]] && $PLAYER $URL --audio-filter compressor \
 	--compressor-attack 1.5 \
 	--compressor-release 300 \
 	--compressor-threshold -26 \
-	--compressor-ratio 10 \
+	--compressor-ratio 5 \
 	--compressor-knee 3 \
-	--compressor-makeup-gain 12 \
+	--compressor-makeup-gain 9 \
         >/dev/null 2>&1 &
 
 exit 0
@@ -63,6 +63,9 @@ WINDOW=$(yad --height=30 --width=400 --no-buttons --text-align=center \
     --fixed --text="Closing Stream: $RUNNING") &
 killall -9 $PLAYER
 }
+
+# updates usable by other apps on the system
+stripper &
 
 # select option from first menu
 SELECTED="$(echo -e "$OPTIONS" | $COMMAND1 )"
