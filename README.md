@@ -6,8 +6,8 @@ A lightweight Bash script for streaming audio from internet radio stations. It i
 
 All dependencies are probably in your distro's software repositories. If not, go get them and compile what you need:
 
-- CVLC or MPV
-- Rofi or Dmenu 
+- CVLC, MPV, or ffplay
+- Rofi or Dmenu
 - Fzf
 - Yad
 
@@ -17,7 +17,7 @@ Reads playlist of streaming audio broadcasters and presents a "fuzzy finder" sty
 
 #### Installation:
 
-Clone the repository, place the script within your system's path. Move the playlist to your home/.config directory. Place the launcher in your home/.local/share/applications directory (or wherever you keep your launchers). The playlist is contained in the file "radiostreams" and it is normally kept in the ~/.config directory.  Entries are one line per stream; url and quoted name of the station. Edit the list as necessary, because stream urls do occaisionally change.
+Clone the repository, place the script within your system's path. Move the playlist to your home/.config directory. Place the launcher in your home/.local/share/applications directory (or wherever you keep your launchers). The playlist is contained in the file "radiostreams" and it is normally kept in the ~/.config directory.  Entries are one line per stream, comma separated: url,name of the station. Edit the list as necessary, because stream urls do occaisionally change.
 
 #### Usage:
 Launch it from the command line with either _"radiostreamer gui_" or _"radiostreamer"_ to get the menu in Rofi or Fzf, respectively. Choices will be to pick a station for streaming, stop streaming, or edit the playlist.
