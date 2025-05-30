@@ -32,8 +32,7 @@ start_player() {
     sleep 0.5
     echo "Connecting to ""$CHOICE"
     echo "Opening Stream: $CHOICE"
-    WINDOW=$(yad --timeout=10 --height=30 --width=400 --no-buttons --text-align=center \
-        --fixed --text="Opening Stream: $CHOICE") &
+    notify-send "Opening Stream: $CHOICE" &
     echo "$CHOICE" >/tmp/stream
     [[ "$PLAYER" == "ffplay" ]] && $PLAYER -af acompressor=threshold=-26dB:ratio=5:attack=5:release=300:makeup=9 "$URL" -probesize 256 -nodisp >/dev/null 2>&1 &
     [[ "$PLAYER" == "mpv" ]] && $PLAYER "$URL" -af "aformat=cl=stereo,acompressor=threshold=-26dB:ratio=5:attack=5:release=300:makeup=9,dynaudnorm=p=0.8:s=10" >/dev/null 2>&1 &
@@ -53,8 +52,7 @@ stop_player() {
     echo -e "Killing any existing $PLAYER instances..."
     read -r RUNNING </tmp/stream
     echo "Closing Stream: $RUNNING"
-    WINDOW=$(yad --timeout=10 --height=30 --width=400 --no-buttons --text-align=center \
-        --fixed --text="Closing Stream: $RUNNING") &
+    notify-send "Closing Stream: $RUNNING" &
     killall -9 $PLAYER
 }
 

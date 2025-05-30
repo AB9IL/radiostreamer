@@ -1,6 +1,6 @@
-http://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d320000.norewind.m3u8,BBC Radio 4 FM
-http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d320000.norewind.m3u8,BBC Radio 5 Live
-http://as-hls-ww-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d320000.norewind.m3u8,BBC World Service
+http://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d96000.norewind.m3u8,BBC Radio 4 FM
+http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d96000.norewind.m3u8,BBC Radio 5 Live
+http://as-hls-ww-live.akamaized.net/pool_87948813/live/ww/bbc_world_service/bbc_world_service.isml/bbc_world_service-audio%3d96000.norewind.m3u8,BBC World Service
 http://www.beatlesradio.com:8000/stream/1/,Beatles Radio
 https://id212139.securedata.net/bobskaradio/bobska.m3u,Bob's Ska Radio
 https://cbcradiolive.akamaized.net/hls/live/2041044/ES_R1NCR/master.m3u8,CBC Radio 1 Corner Brook
@@ -37,6 +37,7 @@ http://66.180.232.7:1477/,Overcomer Ministry (Brother Stair)
 https://cast1.my-control-panel.com/proxy/psychedelicized/stream,Psychedelicized Radio
 https://stream.probroadcast.dk/radio208,Radio 208 Copenhagen
 http://sc3.radiocaroline.net:8030,Radio Caroline
+https://stan319bisbis.radioca.st/stream,Radio Mi Amigo 6085
 https://www.mp3streams.nl/zender/veronica/stream/11-mp3-128,Radio Veronica (Netherlands)
 http://149.56.155.73:8080/,Real Punk Radio
 http://rustradio.org:9000/stream.ogg,Rust Radio (Live Neil Young)
