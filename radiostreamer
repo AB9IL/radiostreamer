@@ -7,9 +7,9 @@ OPTION2="Stop Streaming"
 OPTION3="Edit Station List"
 OPTIONS="$OPTION1\n$OPTION2\n$OPTION3"
 FZF_COMMAND1='fzf --layout=reverse --header=Select:'
-ROFI_COMMAND1='rofi -dmenu -l 3 -p Select'
+ROFI_COMMAND1='rofi -i -dmenu -l 3 -p Select'
 FZF_COMMAND2='fzf --layout=reverse --header=Select:'
-ROFI_COMMAND2='rofi -dmenu -p Select'
+ROFI_COMMAND2='rofi -i -dmenu -p Select'
 FZF_COMMAND3="vim $STREAMS_FILE"
 ROFI_COMMAND3="x-terminal-emulator -e vim $STREAMS_FILE"
 
