@@ -19,10 +19,13 @@ https://rcavliveaudio.akamaized.net/hls/live/2006950/P-2EMCT2_HAL/master.m3u8,Ic
 https://rcavliveaudio.akamaized.net/hls/live/2006635/P-2QMTL0_MTL/master.m3u8,Ici Première (Montréal)
 https://rcavliveaudio.akamaized.net/hls/live/2006975/P-2BVAN0_VAN/master.m3u8,Ici Première (Colombie-Britannique-Yukon - Grand Nord)
 http://icecast2.rte.ie/radio1,RTE Radio 1 Dublin
-http://live-radio01.mediahubaustralia.com/3LRW/mp3/,ABC Radio Melbourne
-http://live-radio01.mediahubaustralia.com/5RNW/mp3/,Radio National Adelaide
-http://radionz-ice.streamguys.com/national.mp3,Radio New Zealand National
-https://ais-nzme.streamguys1.com/nz_002_aac,NewsTalk ZB Auckland
+https://live-radio01.mediahubaustralia.com/5RNW/mp3,ABC Radio Adelaide (Australia)
+http://live-radio01.mediahubaustralia.com/4LRW/mp3,ABC Radio Brisbane (Australia)
+http://live-radio01.mediahubaustralia.com/3RNW/mp3/,ABC Radio Melbourne (Australia)
+http://live-radio01.mediahubaustralia.com/6RNW/mp3,ABC Radio Perth (Australia)
+http://live-radio02.mediahubaustralia.com/2RNW/mp3/,ABC Radio Sydney (Australia)
+http://radionz-ice.streamguys.com/national.mp3,Radio New Zealand National (New Zealand)
+https://ais-nzme.streamguys1.com/nz_002_aac,NewsTalk ZB Auckland (New Zealand)
 https://radionacionalamazonia-stream.ebc.com.br/ebc/radionacionalamazonia/playlist.m3u8,Radio Nacional da Amazonia (Brazil)
 https://stream3.rdstrm.com/prx-http/mp3.polskieradio.pl:8900/,Polskie - Radio 1 / Jedynka (Poland)
 https://stream4.srr.ro:8443/antena-satelor,Antena Satelor (Bucharest - Romania)
