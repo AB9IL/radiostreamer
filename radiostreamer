@@ -56,9 +56,6 @@ stop_player() {
     killall -9 $PLAYER
 }
 
-# updates usable by other apps on the system
-stripper &
-
 # select option from first menu
 SELECTED="$(echo -e "$OPTIONS" | $COMMAND1)"
 
